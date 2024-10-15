@@ -2860,7 +2860,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PSS254:PSS254_1x04_Horizontal"
 			(at 242.57 74.93 0)
 			(effects
 				(font
@@ -4856,7 +4856,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PSS254:PSS254_1x04_Horizontal"
 			(at 242.57 54.61 0)
 			(effects
 				(font
