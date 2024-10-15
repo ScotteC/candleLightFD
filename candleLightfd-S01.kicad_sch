@@ -2887,6 +2887,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d8b87b15-1cd9-4685-8fd9-8ec5c192e39c")
 		)
@@ -2963,7 +2972,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "any"
+		(property "MPN" ""
 			(at 216.662 116.84 90)
 			(effects
 				(font
@@ -3013,6 +3022,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3087,7 +3105,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "any"
+		(property "MPN" ""
 			(at 61.722 73.66 90)
 			(effects
 				(font
@@ -3137,6 +3155,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 57.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3321,7 +3348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf"
+		(property "Datasheet" ""
 			(at 218.44 124.46 0)
 			(effects
 				(font
@@ -3394,6 +3421,15 @@
 			)
 		)
 		(property "Field10" ""
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -3490,6 +3526,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 124.46 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "candleLightfd-S01"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
@@ -3554,7 +3599,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "any"
+		(property "MPN" ""
 			(at 69.342 73.66 90)
 			(effects
 				(font
@@ -3604,6 +3649,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3934,7 +3988,7 @@
 				(hide yes)
 			)
 		)
-		(property "mfr" "GSB1C411111DS1HR "
+		(property "mouser" " 523-GSB1C411111DS1HR "
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -3943,7 +3997,25 @@
 				(hide yes)
 			)
 		)
-		(property "mouser" " 523-GSB1C411111DS1HR "
+		(property "digikey" "664-GSB1C411111DS1HRCT-ND"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GSB1C411111DS1HR "
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -4133,7 +4205,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "any"
+		(property "MPN" ""
 			(at 236.982 116.84 90)
 			(effects
 				(font
@@ -4183,6 +4255,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 232.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4303,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608EC.pdf"
+		(property "Datasheet" ""
 			(at 259.08 124.46 0)
 			(effects
 				(font
@@ -4384,6 +4465,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c3effa6-9ef2-4d59-9523-32df6fec9866")
 		)
@@ -4436,7 +4526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "$PTX_DATASHEETS/datasheets/LED/Kingbright_KPT-1608SGC.pdf"
+		(property "Datasheet" ""
 			(at 238.76 124.46 0)
 			(effects
 				(font
@@ -4509,6 +4599,15 @@
 			)
 		)
 		(property "Field10" ""
+			(at 232.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -4651,7 +4750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "any"
+		(property "MPN" ""
 			(at 257.302 116.84 90)
 			(effects
 				(font
@@ -4701,6 +4800,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 252.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -4767,6 +4875,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 242.57 54.61 0)
 			(effects
 				(font

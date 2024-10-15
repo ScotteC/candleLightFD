@@ -1606,145 +1606,6 @@
 				)
 			)
 		)
-		(symbol "generic-connectors:TP1.0mm"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 0.508 0.508)
-					)
-				)
-			)
-			(property "Value" "TP1.0mm"
-				(at 1.27 -2.54 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Connector_generic:TP1.0mm"
-				(at -10.16 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -10.16 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "PCB SMD Testpoint, 1mm diameter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "any"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "any"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "State" "reviewed"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Fit" "fit: "
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-					(hide yes)
-				)
-			)
-			(property "Package" "SMT TP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TP1.0mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TP1.0mm_0_1"
-				(circle
-					(center 1.27 0)
-					(radius 0.381)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TP1.0mm_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 0.2032 0.2032)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.2032 0.2032)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "multicomp:100n"
 			(pin_numbers hide)
 			(pin_names
@@ -2666,12 +2527,6 @@
 		(uuid "5c733efe-3d5d-4674-af5f-f31b3d37c0ce")
 	)
 	(junction
-		(at 134.62 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86277781-27c9-412d-8318-6cf084721660")
-	)
-	(junction
 		(at 127 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2808,8 +2663,16 @@
 		(uuid "cac2b2d3-f73e-4406-8231-31b3578e5480")
 	)
 	(no_connect
+		(at 67.31 46.99)
+		(uuid "d05b9c63-be95-45d2-99ae-fed936b5ccb5")
+	)
+	(no_connect
 		(at 115.57 52.07)
 		(uuid "d0f0044e-f8f1-4435-944f-4fbc1eedf452")
+	)
+	(no_connect
+		(at 67.31 43.18)
+		(uuid "dbc48670-bdd4-4c2e-8b4f-8ff2536cc0c9")
 	)
 	(no_connect
 		(at 157.48 30.48)
@@ -2967,16 +2830,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 76.2) (xy 134.62 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f75123-58ac-496f-9ab7-8e29c334e8cc")
-	)
-	(wire
-		(pts
 			(xy 158.75 45.72) (xy 165.1 45.72)
 		)
 		(stroke
@@ -3127,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 73.66) (xy 134.62 76.2)
+			(xy 146.05 73.66) (xy 146.05 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3197,16 +3050,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 43.18) (xy 67.31 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbb7954a-cd04-4a25-b69b-6a0b73e8d1ca")
-	)
-	(wire
-		(pts
 			(xy 57.15 49.53) (xy 67.31 49.53)
 		)
 		(stroke
@@ -3237,23 +3080,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 76.2) (xy 146.05 82.55)
+			(xy 146.05 76.2) (xy 146.05 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c83030b7-a303-4e06-8483-566a171d81d3")
-	)
-	(wire
-		(pts
-			(xy 134.62 76.2) (xy 146.05 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8da9d25-5bf3-453c-8e51-fd2448ad6e80")
 	)
 	(wire
 		(pts
@@ -3284,16 +3117,6 @@
 			(type default)
 		)
 		(uuid "cceb5c41-a556-4a8a-9db8-cfb13160520f")
-	)
-	(wire
-		(pts
-			(xy 59.69 46.99) (xy 67.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfb1e096-8b10-423e-b2b9-fd777b211d99")
 	)
 	(wire
 		(pts
@@ -3357,23 +3180,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 146.05 91.44)
+			(xy 146.05 86.36) (xy 146.05 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f7fbb2f5-ae83-4a0f-8761-d6c5491a5db9")
-	)
-	(wire
-		(pts
-			(xy 134.62 90.17) (xy 134.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff22154a-339e-4f5f-9133-c77ebb41ac65")
 	)
 	(text_box "Load Caps\n\nC_{L} = (  (C_{1} C_{2}) / (C_{1} + C_{2}) ) + C_{Stray}\n12pF -> 2x 6pF Caps\n\nThay might not be needed"
 		(exclude_from_sim no)
@@ -3405,17 +3218,6 @@
 		)
 		(uuid "dfb574f5-f4e4-46e1-84b2-0c9e379efa79")
 	)
-	(label "TX"
-		(at 59.69 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0958fbb8-6fc4-4395-9e59-879ce566af71")
-	)
 	(label "SWCLK"
 		(at 59.69 57.15 0)
 		(fields_autoplaced yes)
@@ -3437,17 +3239,6 @@
 			(justify right bottom)
 		)
 		(uuid "5b5c9956-6218-4b3d-8b7c-123d6a70c0f9")
-	)
-	(label "RX"
-		(at 59.69 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79d2494e-e04c-499a-bcda-e591feaa4b4a")
 	)
 	(label "NRST"
 		(at 156.21 107.95 0)
@@ -3590,70 +3381,6 @@
 		(uuid "d6befa4e-3f51-4612-a4f1-a0ff1b0bbec4")
 	)
 	(symbol
-		(lib_id "powerport:GND")
-		(at 134.62 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01b26596-2cbe-4794-84d6-a250e4529154")
-		(property "Reference" "#PWR022"
-			(at 134.62 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa1095ac-2e53-4274-8db5-6f3d67a08a03")
-		)
-		(instances
-			(project "candleLightfd-S01"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ST:STM32G0B1CBT")
 		(at 173.99 25.4 0)
 		(unit 3)
@@ -3763,6 +3490,24 @@
 			)
 		)
 		(property "mouser" " 511-STM32G0B1CBT3 "
+			(at 173.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "497-STM32G0B1CBT6-ND"
+			(at 173.99 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 173.99 25.4 0)
 			(effects
 				(font
@@ -4043,6 +3788,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ce02ba4-0fc2-4c0d-8ecd-59572e6d1bc4")
 		)
@@ -4093,7 +3847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "$PTX_DATASHEETS/datasheets/Connectors/Tag-Connect_TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+		(property "Datasheet" ""
 			(at 35.56 53.34 0)
 			(effects
 				(font
@@ -4155,6 +3909,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 36.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4bb9163-f796-45b9-a29c-eae4ef7d114a")
 		)
@@ -4177,116 +3940,6 @@
 			(project "candleLightfd-S01"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
 					(reference "X3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "generic-connectors:TP1.0mm")
-		(at 59.69 43.18 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3015b956-649b-4373-acb6-65f1db6829c6")
-		(property "Reference" "TP5"
-			(at 57.15 43.18 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "TP1.0mm"
-			(at 58.42 40.64 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "any"
-			(at 59.69 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "any"
-			(at 59.69 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "State" "reviewed"
-			(at 59.69 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fit" "fit: "
-			(at 59.69 48.26 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMT TP"
-			(at 59.69 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f7f8592-f9eb-45f7-9448-46df8a09562f")
-		)
-		(instances
-			(project "candleLightfd-S01"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4402,6 +4055,24 @@
 			)
 		)
 		(property "mouser" " 511-STM32G0B1CBT3 "
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "497-STM32G0B1CBT6-ND"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 177.8 49.53 0)
 			(effects
 				(font
@@ -4727,6 +4398,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d1b1310-1952-4aff-bfc3-075f6cc318a3")
 		)
@@ -4744,7 +4424,7 @@
 	)
 	(symbol
 		(lib_id "powerport:GND")
-		(at 146.05 91.44 0)
+		(at 146.05 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4753,7 +4433,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c9d2155-9973-451d-9e90-767db6a92224")
 		(property "Reference" "#PWR023"
-			(at 146.05 93.98 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 95.25 0)
+			(at 146.05 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +4450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 91.44 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4778,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 91.44 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4786,7 +4466,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 91.44 0)
+			(at 146.05 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4488,7 @@
 	)
 	(symbol
 		(lib_id "powerport:+3V3")
-		(at 134.62 73.66 0)
+		(at 146.05 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4817,7 +4497,7 @@
 		(fields_autoplaced yes)
 		(uuid "5018647e-94b2-4a60-8fdd-3bba2b84aaf8")
 		(property "Reference" "#PWR021"
-			(at 134.62 77.47 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +4506,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 134.62 69.85 0)
+			(at 146.05 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4834,7 +4514,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4842,7 +4522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4530,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 134.62 73.66 0)
+			(at 146.05 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,6 +4797,24 @@
 				(hide yes)
 			)
 		)
+		(property "digikey" "497-STM32G0B1CBT6-ND"
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 176.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "257a2930-86de-4b5e-ae1c-46e7ce97b7e5")
 		)
@@ -5272,122 +4970,7 @@
 	)
 	(symbol
 		(lib_id "multicomp:100n")
-		(at 134.62 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "678c2c64-c5be-4b02-b0ba-2f29b06f4daf")
-		(property "Reference" "C4"
-			(at 138.43 84.4677 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 138.43 87.0077 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.5852 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.farnell.com/datasheets/1901289.pdf"
-			(at 138.176 92.329 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "MC0603B104K500CT"
-			(at 137.795 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Multicomp"
-			(at 140.335 78.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fit" "fit: "
-			(at 138.43 88.9127 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(justify left)
-			)
-		)
-		(property "State" "legacy"
-			(at 142.24 90.17 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "0603"
-			(at 134.62 86.36 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84279340-69bf-416e-8f5a-5a1b8895ad9d")
-		)
-		(pin "2"
-			(uuid "cd488159-8b79-49f9-a49c-8a9b59590ec6")
-		)
-		(instances
-			(project "candleLightfd-S01"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "multicomp:100n")
-		(at 146.05 86.36 0)
+		(at 146.05 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5396,7 +4979,7 @@
 		(fields_autoplaced yes)
 		(uuid "72d3b2f8-2a7b-4e37-9aff-bbc693f0dbc8")
 		(property "Reference" "C5"
-			(at 149.86 84.4677 0)
+			(at 149.86 80.6577 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +4988,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 149.86 87.0077 0)
+			(at 149.86 83.1977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +4997,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.0152 90.17 0)
+			(at 147.0152 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5006,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.farnell.com/datasheets/1901289.pdf"
-			(at 149.606 92.329 0)
+			(at 149.606 88.519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5015,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 86.36 0)
+			(at 146.05 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,8 +5023,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MC0603B104K500CT"
-			(at 149.225 81.28 0)
+		(property "MPN" "any"
+			(at 149.225 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5450,7 +5033,7 @@
 			)
 		)
 		(property "Manufacturer" "Multicomp"
-			(at 151.765 78.74 0)
+			(at 151.765 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5459,7 +5042,7 @@
 			)
 		)
 		(property "Fit" "fit: "
-			(at 149.86 88.9127 0)
+			(at 149.86 85.1027 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -5468,7 +5051,7 @@
 			)
 		)
 		(property "State" "legacy"
-			(at 153.67 90.17 0)
+			(at 153.67 86.36 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -5477,10 +5060,19 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 146.05 86.36 0)
+			(at 146.05 82.55 0)
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" "stock"
+			(at 146.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5555,7 +5147,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "any"
+		(property "MPN" ""
 			(at 45.212 67.31 90)
 			(effects
 				(font
@@ -5605,6 +5197,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 40.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -5817,116 +5418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "generic-connectors:TP1.0mm")
-		(at 59.69 46.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b561ca68-657b-4bfc-a1bf-23a379821b3e")
-		(property "Reference" "TP4"
-			(at 57.15 46.99 0)
-			(effects
-				(font
-					(size 0.508 0.508)
-				)
-			)
-		)
-		(property "Value" "TP1.0mm"
-			(at 58.42 44.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "any"
-			(at 59.69 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "any"
-			(at 59.69 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "State" "reviewed"
-			(at 59.69 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Fit" "fit: "
-			(at 59.69 52.07 0)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" "SMT TP"
-			(at 59.69 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7f255b1-4530-4cb3-b440-95b12f3873d5")
-		)
-		(instances
-			(project "candleLightfd-S01"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c754f27f-d753-4109-9c59-639a39396c66"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ST:STM32G0B1CBT")
 		(at 176.53 82.55 0)
 		(unit 5)
@@ -6036,6 +5527,24 @@
 			)
 		)
 		(property "mouser" " 511-STM32G0B1CBT3 "
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "497-STM32G0B1CBT6-ND"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 176.53 82.55 0)
 			(effects
 				(font
@@ -6233,7 +5742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "$PTX_DATASHEETS/datasheets/Crystal/WE_830108313809_8MHz.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/830108313809.pdf"
 			(at 118.11 113.03 0)
 			(effects
 				(font
@@ -6301,6 +5810,33 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "mouser" " 710-830108313809 "
+			(at 134.62 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "732-830108313809CT-ND"
+			(at 134.62 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
+			(at 134.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6434,6 +5970,24 @@
 			)
 		)
 		(property "mouser" " 511-STM32G0B1CBT3 "
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "497-STM32G0B1CBT6-ND"
+			(at 128.27 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 128.27 39.37 0)
 			(effects
 				(font
@@ -6650,7 +6204,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "MC0603B104K500CT"
+		(property "MPN" "any"
 			(at 156.845 107.95 0)
 			(effects
 				(font
@@ -6691,6 +6245,15 @@
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" "stock"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -6892,6 +6455,15 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41ae2a47-7165-4245-a38d-e30ed637aedf")
 		)
@@ -7017,6 +6589,24 @@
 			)
 		)
 		(property "mouser" " 511-STM32G0B1CBT3 "
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "497-STM32G0B1CBT6-ND"
+			(at 81.28 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" ""
 			(at 81.28 40.64 0)
 			(effects
 				(font

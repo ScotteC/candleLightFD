@@ -720,36 +720,26 @@
 		)
 	)
 	(junction
-		(at 119.38 99.06)
+		(at 157.48 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b297c47-cc9a-49b6-b109-6169b95c561a")
+		(uuid "0537783f-f6bd-42b2-821e-2f3559057c65")
 	)
 	(junction
-		(at 163.83 91.44)
+		(at 129.54 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3327a5a7-9540-436b-92b3-d3354e4ba1e6")
+		(uuid "09baca99-7cd9-4bbb-a565-8178cb5e3cd8")
 	)
 	(junction
-		(at 119.38 91.44)
+		(at 129.54 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da17e5a9-d5c2-4d75-a6f5-20cb8045c307")
+		(uuid "f5ec4da7-42a7-4b59-bec8-1c79b9880eca")
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 132.08 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16f21288-bf17-4f5a-a923-5003afd26421")
-	)
-	(wire
-		(pts
-			(xy 154.94 91.44) (xy 163.83 91.44)
+			(xy 154.94 91.44) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
@@ -759,17 +749,27 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 119.38 91.44)
+			(xy 129.54 99.06) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cc3f6cc-b1b2-4c12-97f8-0a5726bceaa8")
+		(uuid "4b75e229-ddc8-4f7b-8447-2a28340b41af")
 	)
 	(wire
 		(pts
-			(xy 163.83 99.06) (xy 163.83 101.6)
+			(xy 157.48 91.44) (xy 160.02 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528d7953-7a7d-4c9e-94dc-2805dd067f72")
+	)
+	(wire
+		(pts
+			(xy 157.48 100.33) (xy 157.48 101.6)
 		)
 		(stroke
 			(width 0)
@@ -779,17 +779,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 132.08 99.06)
+			(xy 157.48 92.71) (xy 157.48 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "861bbc54-281f-4028-9e70-487fa09a10f8")
+		(uuid "753d5a98-0054-49b8-a8ef-62c5a5462735")
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 176.53 91.44)
+			(xy 160.02 88.9) (xy 160.02 91.44)
 		)
 		(stroke
 			(width 0)
@@ -799,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 119.38 101.6)
+			(xy 129.54 99.06) (xy 129.54 101.6)
 		)
 		(stroke
 			(width 0)
@@ -809,17 +809,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 91.44) (xy 176.53 91.44)
+			(xy 129.54 91.44) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a29b79bf-1869-4a4d-9b5e-dfdbd66a6fc1")
+		(uuid "d42ba223-d3a3-4feb-9e65-4809d5dd955a")
 	)
 	(wire
 		(pts
-			(xy 114.3 88.9) (xy 114.3 91.44)
+			(xy 129.54 88.9) (xy 129.54 91.44)
 		)
 		(stroke
 			(width 0)
@@ -848,7 +848,7 @@
 	)
 	(symbol
 		(lib_id "powerport:+3V3")
-		(at 176.53 88.9 0)
+		(at 160.02 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -857,7 +857,7 @@
 		(fields_autoplaced yes)
 		(uuid "1222e10b-88a7-474d-aba8-f235f205bc6d")
 		(property "Reference" "#PWR029"
-			(at 176.53 92.71 0)
+			(at 160.02 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -866,7 +866,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 176.53 85.09 0)
+			(at 160.02 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -874,7 +874,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -890,7 +890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +912,7 @@
 	)
 	(symbol
 		(lib_id "powerport:+5V")
-		(at 114.3 88.9 0)
+		(at 129.54 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -921,7 +921,7 @@
 		(fields_autoplaced yes)
 		(uuid "26aadea0-d6ca-4279-a19f-ce81fa75586e")
 		(property "Reference" "#PWR025"
-			(at 114.3 92.71 0)
+			(at 129.54 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +930,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.3 83.82 0)
+			(at 129.54 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -938,7 +938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 88.9 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 88.9 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +954,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 88.9 0)
+			(at 129.54 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -976,7 +976,7 @@
 	)
 	(symbol
 		(lib_id "powerport:GND")
-		(at 119.38 101.6 0)
+		(at 129.54 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -985,7 +985,7 @@
 		(fields_autoplaced yes)
 		(uuid "aeebeef8-c599-441e-aac4-fd7b29c2b5f3")
 		(property "Reference" "#PWR026"
-			(at 119.38 104.14 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 105.41 0)
+			(at 129.54 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 101.6 0)
+			(at 129.54 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 	)
 	(symbol
 		(lib_id "Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C:10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor")
-		(at 163.83 95.25 0)
+		(at 157.48 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1049,7 +1049,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9cf2761-58d9-4f83-8468-060d087692f9")
 		(property "Reference" "C7"
-			(at 167.64 92.7227 0)
+			(at 161.29 93.9927 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,8 +1057,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor"
-			(at 164.465 97.79 0)
+		(property "Value" "1u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor"
+			(at 158.115 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1068,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 164.7952 99.06 0)
+			(at 158.4452 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.386 101.219 0)
+			(at 161.036 102.489 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1086,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 95.25 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 			)
 		)
 		(property "MPN" "any"
-			(at 167.005 90.17 0)
+			(at 160.655 91.44 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(property "Manufacturer" "any"
-			(at 169.545 87.63 0)
+			(at 163.195 88.9 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1112,8 +1112,8 @@
 				(hide yes)
 			)
 		)
-		(property "DisplayValue" "10u"
-			(at 167.64 95.2627 0)
+		(property "DisplayValue" "1u"
+			(at 161.29 96.5327 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(property "Fit" "fit: "
-			(at 167.64 97.1677 0)
+			(at 161.29 98.4377 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "State" "legacy"
-			(at 171.45 99.06 0)
+			(at 165.1 100.33 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "CapRatedVoltage" "10V"
-			(at 167.64 98.4377 0)
+			(at 161.29 99.7077 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1149,10 +1149,19 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 163.83 95.25 0)
+			(at 157.48 96.52 0)
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" "stock"
+			(at 157.48 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -1174,16 +1183,16 @@
 	)
 	(symbol
 		(lib_id "Cap_10Percent_E24_0805_X7R_X7S_multipleV_-40C-125C:10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor")
-		(at 119.38 95.25 0)
+		(at 129.54 95.25 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf32636e-e8e6-4306-931c-25b762146193")
 		(property "Reference" "C6"
-			(at 123.19 92.7227 0)
+			(at 126.7206 92.6479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1192,7 +1201,7 @@
 			)
 		)
 		(property "Value" "10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor"
-			(at 120.015 97.79 0)
+			(at 128.905 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1211,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 120.3452 99.06 0)
+			(at 128.5748 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.936 101.219 0)
+			(at 125.984 101.219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 95.25 0)
+			(at 129.54 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1238,7 @@
 			)
 		)
 		(property "MPN" "any"
-			(at 122.555 90.17 0)
+			(at 126.365 90.17 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1238,7 +1247,7 @@
 			)
 		)
 		(property "Manufacturer" "any"
-			(at 125.095 87.63 0)
+			(at 123.825 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1247,7 +1256,7 @@
 			)
 		)
 		(property "DisplayValue" "10u"
-			(at 123.19 95.2627 0)
+			(at 126.7206 95.0722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1265,7 @@
 			)
 		)
 		(property "Fit" "fit: "
-			(at 123.19 97.1677 0)
+			(at 126.7206 96.9857 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1265,7 +1274,7 @@
 			)
 		)
 		(property "State" "legacy"
-			(at 127 99.06 0)
+			(at 121.92 99.06 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1274,7 +1283,7 @@
 			)
 		)
 		(property "CapRatedVoltage" "10V"
-			(at 123.19 98.4377 0)
+			(at 126.7206 98.3883 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -1283,10 +1292,19 @@
 			)
 		)
 		(property "Package" "0805"
-			(at 119.38 95.25 0)
+			(at 129.54 95.25 0)
 			(effects
 				(font
 					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "note" "stock"
+			(at 129.54 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -1314,10 +1332,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2afbbf1-480d-4e52-83ba-4e9d992669d7")
 		(property "Reference" "U2"
-			(at 143.51 82.55 0)
+			(at 138.684 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1325,7 +1342,7 @@
 			)
 		)
 		(property "Value" "MCP1754ST-3302E/MB"
-			(at 143.51 85.09 0)
+			(at 143.51 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "$PTX_DATASHEETS/datasheets/PowerSupply/Microchip_MCP1754-MCP1754S_LDO.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf"
 			(at 143.51 74.93 0)
 			(effects
 				(font
@@ -1403,6 +1420,24 @@
 				(hide yes)
 			)
 		)
+		(property "note" ""
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "digikey" "MCP1754ST-3302E/MBCT-ND"
+			(at 143.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "24a2d817-4bf5-456b-b57a-cb446f1f6403")
 		)
@@ -1423,7 +1458,7 @@
 	)
 	(symbol
 		(lib_id "powerport:GND")
-		(at 163.83 101.6 0)
+		(at 157.48 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1432,7 +1467,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5748adc-0a0b-4179-9429-f24cfaaa0c35")
 		(property "Reference" "#PWR028"
-			(at 163.83 104.14 0)
+			(at 157.48 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 105.41 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 101.6 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 101.6 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 101.6 0)
+			(at 157.48 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
