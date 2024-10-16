@@ -2621,7 +2621,7 @@
 		(at 143.51 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2635,7 +2635,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor"
+		(property "Value" "100n"
 			(at 144.145 64.77 0)
 			(effects
 				(font
@@ -2735,7 +2735,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 143.51 62.23 0)
 			(effects
 				(font
@@ -3028,7 +3028,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 162.56 104.14 0)
 			(effects
 				(font
@@ -3126,7 +3126,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 110.49 62.23 0)
 			(effects
 				(font
@@ -3261,7 +3261,7 @@
 		(at 76.2 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3275,7 +3275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor"
+		(property "Value" "100n"
 			(at 76.835 99.06 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 76.2 96.52 0)
 			(effects
 				(font
@@ -3468,7 +3468,7 @@
 		(at 165.1 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3518,7 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 165.1 92.71 0)
 			(effects
 				(font
@@ -3548,7 +3548,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3562,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor"
+		(property "Value" "100n"
 			(at 76.835 64.77 0)
 			(effects
 				(font
@@ -3662,7 +3662,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 77.47 62.23 0)
 			(effects
 				(font
@@ -3758,7 +3758,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3772,7 +3772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor"
+		(property "Value" "10u"
 			(at 88.265 64.77 0)
 			(effects
 				(font
@@ -3872,7 +3872,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 88.9 62.23 0)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 110.49 130.81 0)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 110.49 95.25 0)
 			(effects
 				(font
@@ -4519,7 +4519,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 167.64 138.43 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 		(at 76.2 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4693,7 +4693,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor"
+		(property "Value" "100n"
 			(at 76.835 134.62 0)
 			(effects
 				(font
@@ -4793,7 +4793,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 76.2 132.08 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 		(at 165.1 127 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5004,7 +5004,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 165.1 127 0)
 			(effects
 				(font
@@ -5097,7 +5097,7 @@
 		(at 132.08 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5111,7 +5111,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u_0603_X7R_10%_50V_-40C..125C_Chip-Capacitor"
+		(property "Value" "10u"
 			(at 132.715 64.77 0)
 			(effects
 				(font
@@ -5211,7 +5211,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 132.08 62.23 0)
 			(effects
 				(font

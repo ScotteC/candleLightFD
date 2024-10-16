@@ -1043,7 +1043,7 @@
 		(at 157.48 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1057,7 +1057,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor"
+		(property "Value" "1u"
 			(at 158.115 99.06 0)
 			(effects
 				(font
@@ -1067,7 +1067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 158.4452 100.33 0)
 			(effects
 				(font
@@ -1157,7 +1157,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" "stock"
+		(property "note" "candlelight"
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -1187,7 +1187,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cf32636e-e8e6-4306-931c-25b762146193")
@@ -1200,7 +1200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u_0805_X7R_10%_10V_-40C..125C_Chip-Capacitor"
+		(property "Value" "10u"
 			(at 128.905 97.79 0)
 			(effects
 				(font
@@ -1210,7 +1210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 128.5748 99.06 0)
 			(effects
 				(font
@@ -1300,7 +1300,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" "stock"
+		(property "note" "candlelight"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -1420,7 +1420,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 143.51 95.25 0)
 			(effects
 				(font

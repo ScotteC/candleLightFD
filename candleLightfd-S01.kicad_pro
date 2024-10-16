@@ -134,7 +134,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -497,7 +497,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-ptx-lib/templates/ptx_pcb.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -507,12 +507,333 @@
       "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
-      "string_delimiter": "\""
+      "string_delimiter": ""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Do Not Place",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DisplayValue",
+            "name": "DisplayValue",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Field10",
+            "name": "Field10",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Fit",
+            "name": "Fit",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Package",
+            "name": "Package",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "State",
+            "name": "State",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "color",
+            "name": "color",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "digikey",
+            "name": "digikey",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "mouser",
+            "name": "mouser",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Beschreibung",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "note",
+            "name": "note",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "CapRatedVoltage",
+            "name": "CapRatedVoltage",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet2",
+            "name": "Datasheet2",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DisplayName",
+            "name": "DisplayName",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": true
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "dev",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Do Not Place",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DisplayValue",
+            "name": "DisplayValue",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Field10",
+            "name": "Field10",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Fit",
+            "name": "Fit",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer",
+            "name": "Manufacturer",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Package",
+            "name": "Package",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "State",
+            "name": "State",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "color",
+            "name": "color",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "digikey",
+            "name": "digikey",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "mouser",
+            "name": "mouser",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Beschreibung",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "note",
+            "name": "note",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "CapRatedVoltage",
+            "name": "CapRatedVoltage",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet2",
+            "name": "Datasheet2",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DisplayName",
+            "name": "DisplayName",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "digikey",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -520,25 +841,7 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Value",
-          "name": "Value",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -547,33 +850,39 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": false
+        },
+        {
           "group_by": false,
-          "label": "DNP",
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Do Not Place",
           "name": "${DNP}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "CapRatedVoltage",
-          "name": "CapRatedVoltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Datasheet2",
-          "name": "Datasheet2",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DisplayName",
-          "name": "DisplayName",
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         },
         {
@@ -598,7 +907,7 @@
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -634,7 +943,7 @@
           "group_by": false,
           "label": "mouser",
           "name": "mouser",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -647,6 +956,36 @@
           "label": "note",
           "name": "note",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CapRatedVoltage",
+          "name": "CapRatedVoltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet2",
+          "name": "Datasheet2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DisplayName",
+          "name": "DisplayName",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
         }
       ],
       "filter_string": "",

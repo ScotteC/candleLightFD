@@ -2837,7 +2837,7 @@
 		(at 242.57 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2887,7 +2887,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 242.57 74.93 0)
 			(effects
 				(font
@@ -2922,7 +2922,7 @@
 		(at 212.09 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2936,7 +2936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k_0603_100mW_1%_E24_Chip-Resistor"
+		(property "Value" "1k"
 			(at 208.6356 119.3546 90)
 			(effects
 				(font
@@ -3026,7 +3026,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -3055,7 +3055,7 @@
 		(at 57.15 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3069,7 +3069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1_0603_100mW_1%_E24_Chip-Resistor"
+		(property "Value" "5k1"
 			(at 53.6956 76.1746 90)
 			(effects
 				(font
@@ -3159,7 +3159,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 57.15 76.2 0)
 			(effects
 				(font
@@ -3316,7 +3316,7 @@
 		(at 212.09 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3429,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 212.09 128.27 0)
 			(effects
 				(font
@@ -3458,7 +3458,7 @@
 		(at 124.46 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3526,7 +3526,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 124.46 27.94 0)
 			(effects
 				(font
@@ -3549,7 +3549,7 @@
 		(at 64.77 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3563,7 +3563,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k1_0603_100mW_1%_E24_Chip-Resistor"
+		(property "Value" "5k1"
 			(at 61.3156 76.1746 90)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 64.77 76.2 0)
 			(effects
 				(font
@@ -4015,7 +4015,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 30.48 77.47 0)
 			(effects
 				(font
@@ -4155,7 +4155,7 @@
 		(at 232.41 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4169,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k_0603_100mW_1%_E24_Chip-Resistor"
+		(property "Value" "1k"
 			(at 228.9556 119.3546 90)
 			(effects
 				(font
@@ -4259,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 232.41 119.38 0)
 			(effects
 				(font
@@ -4352,7 +4352,7 @@
 		(at 252.73 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4465,7 +4465,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 252.73 128.27 0)
 			(effects
 				(font
@@ -4494,7 +4494,7 @@
 		(at 232.41 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4607,7 +4607,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 232.41 128.27 0)
 			(effects
 				(font
@@ -4700,7 +4700,7 @@
 		(at 252.73 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4714,7 +4714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k_0603_100mW_1%_E24_Chip-Resistor"
+		(property "Value" "1k"
 			(at 249.2756 119.3546 90)
 			(effects
 				(font
@@ -4804,7 +4804,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 252.73 119.38 0)
 			(effects
 				(font
@@ -4833,7 +4833,7 @@
 		(at 242.57 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4883,7 +4883,7 @@
 				(hide yes)
 			)
 		)
-		(property "note" ""
+		(property "note" "candlelight"
 			(at 242.57 54.61 0)
 			(effects
 				(font
